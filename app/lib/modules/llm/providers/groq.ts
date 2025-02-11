@@ -15,7 +15,7 @@ export default class GroqProvider extends BaseProvider {
   staticModels: ModelInfo[] = [
     { name: 'qwen-2.5-32b', label: 'Qwen 2.5 32b (Groq)', provider: 'Groq', maxTokenAllowed: 8000 },
     { name: 'deepseek-r1-distill-qwen-32b', label: 'DeepSeek R1 Distill Qwen 32b (Groq)', provider: 'Groq', maxTokenAllowed: 16000 },
-    { name: 'deepseek-r1-distill-llama-70b-specdec', label: 'DeepSeek R1 Distill Llama 70b (Groq)', provider: 'Groq', maxTokenAllowed: 16000 },
+    { name: 'deepseek-r1-distill-llama-70b', label: 'DeepSeek R1 Distill Llama 70b (Groq)', provider: 'Groq', maxTokenAllowed: 8000 },
     { name: 'llama-3.1-8b-instant', label: 'Llama 3.1 8b (Groq)', provider: 'Groq', maxTokenAllowed: 8000 },
     { name: 'llama-3.2-11b-vision-preview', label: 'Llama 3.2 11b (Groq)', provider: 'Groq', maxTokenAllowed: 8000 },
     { name: 'llama-3.2-90b-vision-preview', label: 'Llama 3.2 90b (Groq)', provider: 'Groq', maxTokenAllowed: 8000 },
